@@ -8,6 +8,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install docker-compose
+        run: |
+          curl -L "https://github.com/docker/compose/releases/download/v2.24.6/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+          chmod +x /usr/local/bin/docker-compose
+          ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
       - name: Build the docker-compose up
         timeout-minutes: 2
         run: docker-compose up -d
@@ -54,9 +60,9 @@ jobs:
         timeout-minutes: 2
         run: docker-compose down
 
-      - name: Slack Notification
-        uses: rtCamp/action-slack-notify@v2
-        if: always()
-        env:
-          SLACK_MESSAGE: 'Allure Report: ${{ secrets.VAULT_ADDR }}'
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+#     - name: Slack Notification
+#       uses: rtCamp/action-slack-notify@v2
+#       if: always()
+#       env:
+#         SLACK_MESSAGE: 'Allure Report: ${{ secrets.VAULT_ADDR }}'
+#         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
