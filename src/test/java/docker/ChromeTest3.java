@@ -33,6 +33,8 @@ public class ChromeTest3 {
 		
 		Thread.sleep(10000);
 		
+		driver.manage().window().fullscreen();
+
 		Utils.captureScreenshot(driver);
 		Utils.allureCaptureScreenshot(driver);
 		
