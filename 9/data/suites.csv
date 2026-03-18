@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Test for Chrome","59061","PHPTravels Test","Suite","Thu Mar 10 18:57:18 UTC 2022","passed","Thu Mar 10 18:58:17 UTC 2022","docker.ChromeTest2","Test Smoke","docker.ChromeTest2","test"
+"Test for Firefox","33497","Vitalsource Test","Suite","Wed Mar 18 04:53:22 UTC 2026","passed","Wed Mar 18 04:53:55 UTC 2026","docker.FirefoxTest1","Test Smoke","docker.FirefoxTest1","test2"
+"Test for Chrome","42369","PHPTravels Test","Suite","Wed Mar 18 04:52:42 UTC 2026","passed","Wed Mar 18 04:53:24 UTC 2026","docker.ChromeTest1","Test Smoke","docker.ChromeTest1","test1"
+"Test for Edge","17513","PHPTravels Test","Suite","Wed Mar 18 04:52:42 UTC 2026","passed","Wed Mar 18 04:52:59 UTC 2026","docker.EdgeTest1","Test Smoke","docker.EdgeTest1","test"
+"Test for Firefox","36801","PHPTravels Test","Suite","Wed Mar 18 04:52:59 UTC 2026","passed","Wed Mar 18 04:53:36 UTC 2026","docker.FirefoxTest1","Test Smoke","docker.FirefoxTest1","test"
+"Test for Edge","39833","Vitalsource Test","Suite","Wed Mar 18 04:52:42 UTC 2026","passed","Wed Mar 18 04:53:22 UTC 2026","docker.EdgeTest1","Test Smoke","docker.EdgeTest1","test2"
+"Test for Chrome","17909","PHPTravels Test","Default Suite","Wed Mar 18 02:19:39 UTC 2026","passed","Wed Mar 18 02:19:57 UTC 2026","docker.ChromeTest1","TestNGTest-841f7712-8845-4bf0-99a8-9f7af54c7b00","docker.ChromeTest1","test2"
