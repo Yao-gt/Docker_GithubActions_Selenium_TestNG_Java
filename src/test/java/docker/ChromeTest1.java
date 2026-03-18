@@ -69,6 +69,8 @@ public class ChromeTest1 {
 		driver.get("https://www.phptravels.net/");
 		
 		Thread.sleep(10000);
+
+		driver.manage().window().fullscreen();
 		
 		Utils.captureScreenshot(driver);
 		Utils.allureCaptureScreenshot(driver);
