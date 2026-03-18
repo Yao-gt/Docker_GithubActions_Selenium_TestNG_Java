@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Test for Chrome","17909","PHPTravels Test","Default Suite","2026-03-17","passed","2026-03-17","docker.ChromeTest1","TestNGTest-841f7712-8845-4bf0-99a8-9f7af54c7b00","docker.ChromeTest1","test2"
+"Test for Chrome","59061","PHPTravels Test","Suite","2022-03-10","passed","2022-03-10","docker.ChromeTest2","Test Smoke","docker.ChromeTest2","test"
+"Test for Chrome","15279","PHPTravels Test","Default Suite","2026-03-17","passed","2026-03-17","docker.ChromeTest1","TestNGTest-92bcb10e-7cf7-4082-aeba-b611c59038e2","docker.ChromeTest1","test1"
+"Test for Edge","57055","PHPTravels Test","Suite","2022-03-10","passed","2022-03-10","docker.EdgeTest1","Test Smoke","docker.EdgeTest1","test"
