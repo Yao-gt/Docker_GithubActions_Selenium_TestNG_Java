@@ -20,11 +20,11 @@ public class MethodClassPhpTravel {
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10, 1));
 	}
 
-	static String loginButton_xpath = "//div[@class='header-right d-flex align-items-center justify-content-end']/a[contains(.,'Login')]";
-	static String ingresoCorreo_xpath = "//div[@class='container']//input[@name='email']";
-	static String ingresoContrasena_xpath = "//div[@class='container']//input[@name='password']";
-	static String botonIniciarSesion_xpath = "//button[@class='btn btn-default btn-lg btn-block effect ladda-button waves-effect']";
-	static String welcomeBack_xpath = "//section[@class='dashboard-area']//h2[@class='sec__title font-size-30 text-white']";
+	static String loginButton_xpath = "//div[@class='flex items-center gap-2']/a[contains(.,'Login')]";
+	static String ingresoCorreo_xpath = "//div[@class='input-group']//input[@name='email']";
+	static String ingresoContrasena_xpath = "//div[@class='input-group']//input[@name='password']";
+	static String botonIniciarSesion_xpath = "//button[@class='btn w-full']";
+	static String welcomeBack_xpath = "//div[@class='flex items-center gap-4']//h1[contains(.,'Dashboard')]";
 	
 	public void iniciarSesion(String correo, String contrasena) throws InterruptedException, IOException {
 		try {
