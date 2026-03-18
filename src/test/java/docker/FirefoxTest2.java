@@ -54,7 +54,7 @@ public class FirefoxTest2 {
 	@Epic("Firefox")
 	@Feature("This is Firefox Test")
 	@Description("Test for Firefox")
-	@Test(description = "Vitalsource Test", groups = "@regresion")
+	@Test(description = "PHPTravels Test", groups = "@regresion")
 	public void test2() throws InterruptedException, IOException {
 		
 		FirefoxOptions options = new FirefoxOptions();

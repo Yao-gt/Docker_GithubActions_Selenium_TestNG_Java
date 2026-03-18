@@ -52,9 +52,9 @@ public class FirefoxTest1 {
 	}
 	
 	@Epic("Firefox")
-	@Feature("This is Firefox Test")
+	@Feature("This is a Failed Firefox Test")
 	@Description("Test for Firefox")
-	@Test(description = "Vitalsource Test", groups = "@smoke")
+	@Test(description = "Failed PHPTravels Test", groups = "@smoke")
 	public void test2() throws InterruptedException, IOException {
 		
 		FirefoxOptions options = new FirefoxOptions();
@@ -79,7 +79,7 @@ public class FirefoxTest1 {
 		System.out.println("Smoke Test");
 		
 		String correo = "user@phptravels.com";
-		String contrasena = "demouser";
+		String contrasena = "demouserfailed";
 		
 		MethodClassPhpTravel methodClassphp = new MethodClassPhpTravel(driver);
 		methodClassphp.iniciarSesion(correo, contrasena);

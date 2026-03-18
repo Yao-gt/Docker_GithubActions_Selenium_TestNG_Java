@@ -52,9 +52,9 @@ public class ChromeTest1 {
 	}
 	
 	@Epic("Chrome")
-	@Feature("This is Chrome Test")
+	@Feature("This is a failed Chrome Test")
 	@Description("Test for Chrome")
-	@Test(description = "PHPTravels Test", groups = "@regresion")
+	@Test(description = "Failed PHPTravels Test", groups = "@regresion")
 	public void test2() throws InterruptedException, IOException {
 		
 		ChromeOptions options = new ChromeOptions();
@@ -79,7 +79,7 @@ public class ChromeTest1 {
 		System.out.println("Regresion Test");
 		
 		String correo = "user@phptravels.com";
-		String contrasena = "demouser";
+		String contrasena = "demousersssfas";
 		
 		MethodClassPhpTravel methodClassphp = new MethodClassPhpTravel(driver);
 		methodClassphp.iniciarSesion(correo, contrasena);

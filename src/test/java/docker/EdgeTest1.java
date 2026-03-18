@@ -52,9 +52,9 @@ public class EdgeTest1 {
 	}
 	
 	@Epic("Edge")
-	@Feature("This is Edge Test")
+	@Feature("This is a Failed Edge Test")
 	@Description("Test for Edge")
-	@Test(description = "Vitalsource Test", groups = "@smoke")
+	@Test(description = "Failed PHPTravels Test", groups = "@smoke")
 	public void test2() throws InterruptedException, IOException {
 		
 		EdgeOptions options = new EdgeOptions();
@@ -79,7 +79,7 @@ public class EdgeTest1 {
 		System.out.println("Smoke Test");
 		
 		String correo = "user@phptravels.com";
-		String contrasena = "demouser";
+		String contrasena = "demouserfailed";
 		
 		MethodClassPhpTravel methodClassphp = new MethodClassPhpTravel(driver);
 		methodClassphp.iniciarSesion(correo, contrasena);
@@ -91,7 +91,7 @@ public class EdgeTest1 {
 	@Epic("Edge")
 	@Feature("This is Edge Test")
 	@Description("Test for Edge")
-	@Test(description = "Vitalsource Test", groups = "@regresion")
+	@Test(description = "PHPTravels Test", groups = "@regresion")
 	public void test3() throws InterruptedException, IOException {
 		
 		EdgeOptions options = new EdgeOptions();
